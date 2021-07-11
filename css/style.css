@@ -1,0 +1,456 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* Top Navigation Bar */
+.topnavbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.topnavbar i {
+    position: absolute;
+}
+
+#dropbox {
+    margin-left: 92px;
+    margin-top: 28px;
+    height: 39px;
+}
+
+#search{
+    padding: 0 55px;
+    margin-left: 17%;
+    margin-top: 28px;
+    border-radius: 15px;
+    background-color: rgba(209, 204, 204, 0.247);
+    border: white;
+    font-size: 15px;
+    width: 35%;
+    padding: 12px;
+    padding-left: 60px;
+}
+
+.fa-search{
+    padding: 10px;
+    min-width: 40px;
+    margin-left: 27%;
+    margin-top: 30px;
+    color: rgb(112, 112, 112);
+}
+
+.fa-search:hover{
+    color: #e4996e;
+}
+
+#search::placeholder{
+    font-size: 15px;
+    color: rgba(177, 175, 175, 0.993);   
+}
+
+/* Side Bar */
+
+/* The sidebar menu */
+.sidebar{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    /* z-index: 1; */
+    top: 15%;
+    left: 0;
+    background-color: rgb(29, 106, 206);
+    overflow-x: hidden; 
+    padding-top: 45px;
+    border-radius: 0 55px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  /* The navigation menu links */
+.sidebar a{
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #b2d5ec5d;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:300;
+}
+ 
+.sidebar a.active{
+    font-weight:650;
+    color: #f1f1f1;
+}
+
+.sidebar a:hover{
+    color: #e4996e;
+}
+ 
+.upgrade{
+    position: relative;
+    margin-top: 160px;
+    border-radius: 20px;
+}
+
+.upgrade img{
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+#upgrade{
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    top: 15px;
+    left: 35px;
+}
+
+#account{
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b2d5ecb0;
+    font-size: 15px;
+    font-weight: 300;
+    top: 39px;
+    left: 35px; 
+}
+
+#personal{
+    display:inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: 30px;
+    align-self: flex-start;
+    margin-left: 44px;
+}
+
+.fa-angle-up{
+    margin-left: 40px;
+    color: #cbd4dad7;
+    font-size: 17px;
+}
+
+#only-you{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b2d5ecb0;
+    align-self: flex-start;
+    margin-left: 44px; 
+    font-weight: 300;   
+}
+
+.fa-angle-down{
+    margin-left: 64px;
+    font-size: 17px;
+    color: #cbd4dad7;
+}
+
+/* Middle Content */
+.middle{
+    margin-left: 25%;
+    margin-top: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#home{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.middle-middle{
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-middle img{
+    height: 30%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.right{
+    position: absolute;
+    top: 260px;
+    left: 650px;
+}
+
+.right h2{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.right span{
+    color: rgb(167, 158, 158);
+}
+
+#scene{
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    left: 400px;
+    top: 420px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#scene-bottom{
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #9ba2a77c;
+    left: 400px;
+    top: 440px;
+    font-size: 11px;
+}
+
+.middle-bottom{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(218, 210, 210, 0.664);
+    border-radius: 10px;
+    padding: 5px 22px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.blue{
+    color: blue;
+}
+
+.unchecked-box{
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 4px;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 12px;
+}
+
+.checked-box{
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 12px;
+    color: white;
+    background-color: rgb(7, 22, 150);
+    font-size: 15px
+}
+
+.fa-check{
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.middle-base{
+    position: absolute;
+    top: 500px;
+}
+
+.base-top{
+    display: flex;
+    flex-direction: row;
+}
+.base-top h2{
+    font-weight: 800;
+    margin-right: 440px;
+}
+
+.base-top img{    
+    height: 18px;
+    margin-right: 5px;
+    background-color: rgba(223, 219, 219, 0.897);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#options{
+    border: 2px solid rgba(230, 225, 225, 0.753);
+    background-color: white;
+}
+
+#menu{
+    height: 20px;
+    margin-right: 70px;
+}
+
+.blue-icon{
+    background-color: rgb(6, 6, 141);
+    border-radius: 10px;
+    width:29px;
+}
+
+.base-top button{
+    background-color: rgb(6, 6, 141);
+    border: 2px solid rgb(6, 6, 141);
+    border-radius: 10px;
+    color: white;
+}
+
+.base-end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 29px;
+    align-items: center;
+    padding: 0 5px;
+}
+
+#between{
+    background-color: rgba(148, 172, 199, 0.295);
+    border-radius: 10px;
+    height: 50px;    
+}
+
+.icon{
+    color: rgba(173, 203, 241, 0.74);
+    margin-right: 35px;
+}
+
+.name{
+    margin-top: 5px;
+    font-weight: 600;
+    margin-right: 500px;    
+}
+
+#second{
+    margin-right: 525px;
+}
+
+#third{
+    margin-right: 506px;
+}
+
+.type{
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+/* Right Nav Bar */
+.rightnavbar{
+    width: 25%;
+   height: 100%;
+   position: absolute;
+   left: 75%;
+   top: 0;
+   border-left: 2px solid #b2d5ec5d;
+}
+
+.right-top{
+    position: relative;
+    width: 100%;
+    top: 40px;
+    left: 199px;
+}
+
+.right-top img{
+    height: 33px;
+}
+.right-middle{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+}
+
+.right-middle h2{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#billie{
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+#info{
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(172, 170, 170);
+    margin-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#music{
+    width: 400px;
+}
+
+.music-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.two-icons{
+    color: rgb(18, 18, 134);
+    background-color: rgba(218, 218, 218, 0.726);
+    padding: 10px;
+    margin-right: 17px;
+    border-radius: 10px;
+}
+
+.icon-3{
+    background-color: rgb(18, 18, 165);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.rightnavbar hr{
+    margin-left: 15%;
+    color: rgb(189, 185, 185);
+}
+
+.users{
+    height: 33px;
+    margin-right: 3px;
+    margin-top: 15px;    
+}
+
+#user1{
+    margin-left: 20px;
+}
+
+.add{
+    padding: 10px 12px;
+    color: rgb(28, 28, 133);
+    background-color: rgba(206, 206, 209, 0.781);
+    border-radius: 22px;
+}
+
+.comment{
+    height: 33px;
+    margin-left: 19%;
+}
+
+.end{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.end p{
+    margin-left: 8px;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+    margin-top: 14px;
+}
+
+.review input{
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: white;
+}
